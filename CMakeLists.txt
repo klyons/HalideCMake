@@ -81,6 +81,6 @@ include_directories(${ZLIB_INCLUDE})
 #target_link_libraries(${ZLIB_LIB})
 
 #target_link_libraries(HalideCMake PRIVATE ${JPEG_LIBRARY} ${TURBOJPEG_LIBRARY})
-target_link_libraries(HalideCMake PRIVATE Halide::Halide Halide::Tools JPEG::JPEG) #TIFF::TIFF ZLIB::ZLIB PNG::PNG
+target_link_libraries(HalideCMake PRIVATE Halide::Halide Halide::Tools) #TIFF::TIFF ZLIB::ZLIB PNG::PNG
 
 
